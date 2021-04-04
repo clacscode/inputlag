@@ -1,0 +1,6 @@
+Para usar el timer resolution en el ISLC tienen que abrir el CMD *COMO ADMINISTRADOR* y escribir estos comandos:
+
+bcdedit /set useplatformclock no
+bcdedit /set useplatformtick yes
+
+Después de eso tienen que reiniciar la pc para que puedan llegar a notar un cambio
